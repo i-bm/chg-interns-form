@@ -1,0 +1,52 @@
+.height {
+    min-height: 100vh;
+}
+
+.border_blue {
+    border-top: 4px solid rgb(78, 12, 233);
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+sup {
+    color: red;
+    font-size: medium;
+}
+
+.form-check .row .col-lg-6 label,
+.form-check .row .col-lg-5 label,
+.aside .form-check label {
+    font-weight: 100;
+    font-size: smaller;
+}
+
+form .part:not(:first-of-type) {
+    display: none;
+}
+
+.fixedButton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+}
+
+.roundedFixedBtn {
+    height: 60px;
+    line-height: 80px;
+    width: 60px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50%;
+    /* background-color: #ffffff;*/
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.animate__animated.animate__backInDown {
+    --animate-duration: 2s;
+}

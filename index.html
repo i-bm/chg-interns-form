@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="font/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="animate/animate.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Genreral Homecare</title>
+</head>
+
+<body class="bg-neutral">
+    <div class="container-fluid">
+        <div class="row height align-items-center">
+            <div class="col-lg-3">
+                <div class="card animate__animated animate__bounceInLeft animate__delay-0.25s">
+                    <img src="assets/img/homeCare1.jpg" class="card-img-top " alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-6 mx-auto   ">
+                <div class="card animate__animated animate__fadeIn animate__delay-2s shadow p-3 mb-5 bg-white rounded">
+                    <div class="card-header bg-success border_blue rounded text-center">
+                        <h4>Request HOME CARE (Corporate Health Ghana Ltd)</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="" method="post">
+                            <!--First part of the form-->
+                            <div class="part">
+                                <label for="">Full Name <sup>*</sup></label>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 pb-3">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fa fa-user"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" placeholder="First name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 pb-3">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fa fa-user"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" placeholder="Last name" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <label for="">Sex <sup>*</sup></label>
+                                <div class="form-check">
+                                    <input type="radio" name="sex">
+                                    <label for="" class="pr-5">Male</label>
+                                    <input type="radio" name="sex">
+                                    <label for="">Female</label>
+                                </div>
+
+                                <label for="">Date of birth <sup>*</sup></label><br>
+                                <div class="input-group">
+
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="fa fa-calendar"></i>
+                                        </span>
+                                    </div>
+                                    <input type="date" class="form-control">
+                                </div> <br>
+
+
+
+                                <label for="">Nationality <sup>*</sup></label>
+                                <div class="input-group">
+
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="fa fa-globe"></i>
+                                        </span>
+                                    </div>
+                                    <input type="text" placeholder="Ghanaian" class="form-control">
+                                </div><br>
+                                <input type="button" name="next" class="next btn btn-info float-right" value="Next" />
+                            </div>
+                            <!--Second part of the form-->
+                            <div class="part">
+                                <label for="">Region</label><br>
+                                <small>Where do you stay in Ghana?</small>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="fa fa-map-marker"></i>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control"><br> <br>
+                                </div><br>
+                                <label for="">Home Address<sup>*</sup></label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="fa fa-home"></i>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control"><br>
+                                </div><br>
+                                <label for="">Phone Number <sup>*</sup></label><br>
+                                <small>Provide reliable contact, You will receive prompt updates via text or
+                                    email</small>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">
+                                            <i class="fa fa-phone"></i>
+                                        </span>
+                                    </div>
+                                    <input type="number" class="form-control"><br>
+                                </div><br>
+
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 pb-3">
+                                        <label for="">Email</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fa fa-envelope-o"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" placeholder="example@gmail.com" class="form-control">
+                                        </div>
+                                    </div><br>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <label for="">Confirm Email </label>
+                                        <div class="input-group">
+
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fa fa-envelope"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" placeholder="Confirm your email" class="form-control">
+                                        </div>
+                                    </div><br>
+                                </div>
+                                <input type="button" name="previous" class="previous btn btn-info float-left" value="Previous" />
+                                <input type="button" name="next" class="next btn btn-info float-right" value="Next" />
+
+                            </div>
+
+
+                            <!--Third part of the form-->
+                            <div class="part last">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 mx-auto pb-3">
+                                            <label for="">Your symptoms/Health concerns/Needs <sup>*</sup></label><br>
+                                            <small>Select as many as applicable</small>
+                                            <div class="form-check">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-8 ">
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Stroke Management</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Hypertension</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Medication</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Medical escort</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Diabetes Management</label>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 mx-aut">
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Wound</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Companionship</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Physiotherapy</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Palliative care</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Other</label>
+                                                    </div>
+                                                </div><br>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 aside">
+                                            <label for=""> Your current health condition<sup>*</sup> </label><br>
+                                            <div class="form-check radio_group">
+                                                <input type="radio" name="healthcondition">
+                                                <label for="">Stable(No symptoms)</label><br>
+                                                <input type="radio" name="healthcondition">
+                                                <label for="">Mildly ill</label><br>
+                                                <input type="radio" name="healthcondition">
+                                                <label for="">Moderately ill</label><br>
+                                                <input type="radio" name="healthcondition">
+                                                <label for="">several ill</label>
+                                            </div> <br><br><br>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 mx-auto pb-3">
+                                            <label for="">Your symptoms/Health concerns/Needs <sup>*</sup></label><br>
+                                            <small>Select as many as applicable</small>
+                                            <div class="form-check">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-8 ">
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Hypertension</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Diabetes</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Asthma</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Heart Related Conditions</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Kidney Related Conditions</label>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 mx-aut">
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Cancer Related Conditions</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Pregnancy</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Pneumonia</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Liver Related condition</label><br>
+                                                        <input type="checkbox" name="">
+                                                        <label for="">Other</label>
+                                                    </div>
+                                                </div><br>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 aside">
+                                            <label for=""> Select Treatement Mode requested <sup>*</sup> </label>
+                                            <div class="form-check">
+                                                <input type="radio" name="Treatement">
+                                                <label for="">Home Visit</label><br>
+                                                <input type="radio" name="Treatement">
+                                                <label for="">Virtual Plus(+Review Visit)</label><br>
+                                                <input type="radio" name="Treatement">
+                                                <label for="">Home stay</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <label for="">Notes</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <i class="fa fa-commenting"></i>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="form-control">
+                                    </div><br>
+
+                                    <div class="form-check">
+                                        <input type="checkbox" name="healthcondition">
+                                        <label for="">I agree to <a href="#">terms & conditions</a></label>
+                                    </div>
+                                </div>
+                                <input type="button" name="previous" class="previous btn btn-info float-left" value="Previous" />
+                                <input type="button" name="submit" class="submit btn btn-info float-right" value="Submit" />
+                            </div>
+                            <!--Finished part-->
+                            <div class="part finished  ">
+                                <img src="assets/img/finished.jpg" width="300px" class=" mx-auto d-block" alt="">
+                                <h3 class="text-center">Well registered!</h3>
+                            </div>
+                        </form>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card animate__animated animate__bounceInRight animate__delay-1s">
+                    <img src="assets/img/homeCare1.jpg" class="card-img-top" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="fixedButton animate__animated animate__backInDown" target="blank" href="https://wa.me/233553557102">
+        <div class="roundedFixedBtn">
+            <img src="assets/img/whatsapp.png" width="100px" alt="">
+        </div>
+    </a>
+
+</body>
+<!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="js/jquery-3.2.1.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $(document).ready(function() {
+        var current = 1,
+            current_step, next_step, steps;
+        steps = $(".part").length;
+        $(".next").click(function() {
+            current_step = $(this).parent();
+            next_step = $(this).parent().next();
+            next_step.show(1500);
+            current_step.hide();
+        });
+
+        $(".previous").click(function() {
+            current_step = $(this).parent();
+            next_step = $(this).parent().prev();
+            next_step.show(1500);
+            current_step.hide();
+        });
+        $(".submit").click(function() {
+            $(".last").hide();
+            $(".finished").show(1500);
+        })
+    });
+</script>
+
+</html>
